@@ -5,6 +5,6 @@
 export SMU_BLUEPRINT=${SMU_BLUEPRINT:-"lukaszklis/set-me-up-blueprint"}
 
 # the set-me-up version to download
-export SMU_VERSION=${SMU_VERSION:-"1.0.1"}
+export SMU_VERSION=${SMU_VERSION:-"1.0.2"}
 
 bash <(curl --progress-bar -L https://raw.githubusercontent.com/lukaszklis/set-me-up/master/.dotfiles/tag-smu/modules/install.sh) $@
